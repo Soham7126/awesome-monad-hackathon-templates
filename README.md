@@ -10,6 +10,7 @@ A collection of production-ready templates for building on the Monad blockchain.
   - [x402 Payment Protocol](#3-x402-payment-protocol)
   - [Oracle Integration](#4-oracle-integration-hardhat)
   - [Token Tracker (Envio)](#5-token-tracker-envio-indexer)
+  - [Farcaster Push Notifications](#6-farcaster-push-notifications)
 - [Getting Started](#-getting-started)
 - [Contributing](#-contributing)
 
@@ -137,6 +138,33 @@ A production-ready Envio indexer template for tracking ERC20 tokens and pools on
 **Documentation:** [Full README](./Monad-Envio-token-tracker-template/README.md)
 
 **Learn More:** [Envio Documentation](https://docs.envio.dev)
+
+---
+
+### 6. Farcaster Push Notifications
+
+**Template Name:** `farcaster-push-notification-template`
+
+**Introduction:**
+A production-ready Next.js template for building Farcaster Mini Apps with integrated wallet connectivity and push notifications. This template demonstrates how to create interactive applications that run within Farcaster clients (like Warpcast), offering native integration with the social network and seamless wallet connectivity on Monad blockchain.
+
+**Key Features:**
+- 🔐 Farcaster SDK integration with full user context access
+- 💼 WalletConnect support via Reown AppKit with Farcaster Mini App connector
+- 🌐 Monad Testnet pre-configured (Chain ID: 10143)
+- 📱 Native Farcaster actions (compose casts, view profiles, add frames)
+- 🔔 Push notification system for users who add your Mini App
+- 👤 User context access (username, FID, display name, PFP)
+- 🎨 Modern UI with Tailwind CSS and responsive design
+- ⚡ Next.js 14 with App Router and server components
+
+**Tech Stack:** Next.js 14, TypeScript, Tailwind CSS, Farcaster SDK, Reown AppKit, Wagmi, Upstash Redis
+
+**Template URL:** [`farcaster-push-notification-template/`](./farcaster-push-notification-template/)
+
+**Documentation:** [Full README](./farcaster-push-notification-template/README.md)
+
+**Learn More:** [Farcaster Mini Apps Documentation](https://miniapps.farcaster.xyz/)
 
 ---
 
