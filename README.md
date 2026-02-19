@@ -11,7 +11,6 @@ A collection of production-ready templates for building on the Monad blockchain.
   - [Oracle Integration](#4-oracle-integration-hardhat)
   - [Token Tracker (Envio)](#5-token-tracker-envio-indexer)
   - [Farcaster Push Notifications](#6-farcaster-push-notifications)
-  - [Smart Wallet (Privy)](#7-smart-wallet-privy)
 - [Getting Started](#-getting-started)
 - [Contributing](#-contributing)
 
@@ -166,33 +165,6 @@ A production-ready Next.js template for building Farcaster Mini Apps with integr
 **Documentation:** [Full README](./farcaster-push-notification-template/README.md)
 
 **Learn More:** [Farcaster Mini Apps Documentation](https://miniapps.farcaster.xyz/)
-
----
-
-### 7. Smart Wallet (Privy)
-
-**Template Name:** `Smart-Wallet-Privy-Template`
-
-**Introduction:**
-A production-ready Next.js template for using smart wallets with Privy Auth on Monad Testnet. This template demonstrates how to integrate Privy's smart wallet functionality, enabling seamless user onboarding and transaction execution without requiring users to manage private keys. Perfect for building user-friendly Web3 applications with embedded wallets.
-
-**Key Features:**
-- 🔐 Smart wallet integration with automatic wallet creation via Privy
-- 💼 Embedded wallets - no browser extensions required
-- 🔄 Batch transaction support - execute multiple transactions in a single batch
-- 📝 Complete transaction examples (minting NFTs, approvals, batch operations)
-- 🌐 Monad Testnet pre-configured (Chain ID: 10143)
-- 🔒 Server-side authentication with secure token verification
-- 📱 Responsive design with modern UI and custom graphics
-- ⚡ TypeScript for full type safety
-
-**Tech Stack:** Next.js, TypeScript, Tailwind CSS, Privy Auth, Privy Smart Wallets, Viem
-
-**Template URL:** [`Smart-Wallet-Privy-Template/`](./Smart-Wallet-Privy-Template/)
-
-**Documentation:** [Full README](./Smart-Wallet-Privy-Template/README.md)
-
-**Learn More:** [Privy Documentation](https://docs.privy.io/)
 
 ---
 
