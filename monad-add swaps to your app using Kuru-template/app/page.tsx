@@ -1,18 +1,18 @@
-import { SwapCard } from "@/components/SwapCard";
+import { ChatSwap } from "@/components/ChatSwap";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-dot-pattern">
       <div className="min-h-screen flex flex-col items-center justify-center p-4">
-        <div className="w-full max-w-md space-y-8">
+        <div className="w-full max-w-2xl space-y-8">
           <div className="text-center space-y-2">
-            <h1 className="text-4xl font-bold tracking-tight">Kuru Flow</h1>
+            <h1 className="text-4xl font-bold tracking-tight">AI Swap Agent</h1>
             <p className="text-muted-foreground">
-              Swap any token on Monad
+              Swap tokens on Monad using natural language
             </p>
           </div>
 
-          <SwapCard />
+          <ChatSwap />
 
           <p className="text-muted-foreground text-sm text-center">
             Powered by{" "}

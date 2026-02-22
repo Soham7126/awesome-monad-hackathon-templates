@@ -46,7 +46,7 @@ export interface TokenGenerateResponse {
 
 // Your wallet address to receive referral fees
 // TODO: Replace with your own address to receive referral fees
-export const REFERRER_ADDRESS = "0x1234567890abcdef1234567890abcdef12345678";
+export const REFERRER_ADDRESS = "0x2Bb0501423d98000c785c409943aE6588f2e4FEb";
 
 // Referral fee in basis points (50 = 0.5%, 100 = 1%)
 export const REFERRER_FEE_BPS = 50;
